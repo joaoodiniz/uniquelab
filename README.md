@@ -63,7 +63,7 @@ const firebaseConfig = {
     appId: "",
     measurementId: ""
 };
-⚠️ Nunca publique senhas, tokens privados, Service Account Keys ou outras credenciais secretas no GitHub.
+
 
 📁 Estrutura
 uniquelab7/
@@ -94,16 +94,6 @@ Depois acesse:
 
 http://localhost:5500
 🔐 Segurança
-Antes de publicar alterações no GitHub:
-
-Não envie senhas para o repositório
-Não publique tokens de acesso privados
-Não publique Service Account Keys
-Não publique arquivos .env contendo credenciais
-Configure corretamente as regras do Firebase
-Restrinja APIs quando aplicável
-Utilize autenticação e autorização adequadas no painel administrativo
-Arquivos contendo variáveis locais podem ser adicionados ao .gitignore.
 
 Exemplo:
 
